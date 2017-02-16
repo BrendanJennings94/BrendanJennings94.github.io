@@ -15,3 +15,26 @@ body {
 p {
     color: white;
 }
+
+table{
+    border: 5px solid black;
+    background: white;
+}
+
+caption{
+    font-size: 3em;
+}
+th{
+    border: 2px solid black;
+    height: 2em;
+}
+
+td{
+   border: 2px solid black;
+    padding: .2em;
+    text-align: center;
+}
+
+td:nth-child(2){
+    text-align: left;
+}
