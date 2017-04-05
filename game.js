@@ -1,7 +1,7 @@
 var loses = 0;
 var wins = 0;
 			
-var play = function(userChoice) {
+var play = function (userChoice) {
 					
 					document.getElementById("player").innerHTML="";
 					document.getElementById("opponent").innerHTML="";
@@ -27,20 +27,20 @@ var play = function(userChoice) {
 						computerChoice = "scissors";
 					}
 				 
-				 	document.getElementById("opponent").innerHTML='// Your opponent chose' + ' ' + computerChoice + '.';
+				 	document.getElementById("opponent").innerHTML= '// Your opponent chose' + ' ' + computerChoice + '.';
 				 
 					 var compare = function (choice1,choice2) {
-						if (choice1 == choice2) {
+						if (choice1 === choice2) {
 							return "The result is a tie!";
-						} else if (choice1 == "rock"){
-							if (choice2 =="scissors") {
+						} else if (choice1 === "rock"){
+							if (choice2 ==="scissors") {
 								wins++;
 								return "rock wins. rock on.";
 							} else {
 								loses++;
 								return "sorry. paper wins.";
 							}
-						} else if (choice1 == "paper") {
+						} else if (choice1 === "paper") {
 							if (choice2 == "rock") {
 								wins++;
 								return "paper wins";
