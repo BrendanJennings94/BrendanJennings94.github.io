@@ -12,6 +12,9 @@ h3 {
 body {
     background-color: skyblue;
     font-family: Times, sans-serif;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 p {
@@ -23,6 +26,10 @@ p {
 table{
     border: 5px solid black;
     background: white;
+    width 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    
 }
 
 caption{
